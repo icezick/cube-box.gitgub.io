@@ -1,0 +1,35 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (150px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 150px);
+  gap: 10px;
+}
+
+.cub {
+  width: 150px;
+  height: 150px;
+  background: gray;
+}
+
+.cub-1 {
+  background-color: #00FF00;
+}
+
+.cub-2 {
+  background-color: #FF0000;
+}
+
+.cub-3 {
+  background-color: #FF1493;
+}
+
+.cub-4 {
+  background-color: #0000FF;
+}
+/*# sourceMappingURL=style.css.map */

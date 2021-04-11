@@ -1,0 +1,36 @@
+$Lime:#00FF00;
+$Red:#FF0000;
+$DeepPink:#FF1493;
+$Blue:#0000FF;
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 150px);
+    gap: 10px;
+
+}
+
+.cub {
+    width: 150px;
+    height: 150px;
+    background: gray;
+}
+
+.cub-1 {
+    background-color: $Lime;
+}
+
+.cub-2 {
+    background-color: $Red;
+}
+
+.cub-3 {
+    background-color: $DeepPink;
+}
+
+.cub-4 {
+    background-color: $Blue;
+} 
